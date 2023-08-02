@@ -21,6 +21,7 @@ public class Game {
 					System.out.println("Your number is greater than the Random Number.");
 				} else if (guess == randomNumber){
 					System.out.println("You guessed it! The number was " + randomNumber + ".");
+					break;
 				} else {
 					System.out.println("You suck. The number was " + randomNumber);
 				}
